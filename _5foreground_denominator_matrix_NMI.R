@@ -1,4 +1,4 @@
-load(paste0("./GSE95140.RData"))
+load("./GSE95140.RData")
 load(file = "./fgnet_inter1.RData")
 gene_count <- ncol(dat)
 
